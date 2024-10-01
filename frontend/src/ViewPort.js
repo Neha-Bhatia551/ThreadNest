@@ -13,7 +13,6 @@ function ViewPort() {
                 <Col><NavHeader/></Col>
             </Row>
             <Row>
-                <Col sm={4}><TopicCreator/></Col>
                 <Col sm={8}><TopicList></TopicList></Col>
             </Row>
         </Container>

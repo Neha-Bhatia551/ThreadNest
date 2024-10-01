@@ -1,0 +1,38 @@
+.accordion-footer{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-footer .btn-group{
+    margin-left: 10px;
+}
+
+.accordion-footer .btn-group .btn{
+    padding: 0.25rem 0.5 rem;
+    font-size: 0.8rem;
+}
+
+.rounded-pill{
+    margin-left: 15px;
+}
+
+/* .accordion-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+  .accordion-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .reply-form {
+    width: 100%;
+    margin-bottom: 10px;
+  }
