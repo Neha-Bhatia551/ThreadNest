@@ -1,6 +1,0 @@
-@poorManReddit_HostAddress = http://localhost:5266
-
-GET {{poorManReddit_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
