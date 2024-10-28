@@ -3,20 +3,22 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import TopicCreator from './TopicCreator';
 import TopicList from './TopicList';
-import NavHeader from './NavHeader';
+import App from './App';
 
 
 function ViewPort() {
     return (
-        <Container>
-            <Row>
-                <Col><NavHeader/></Col>
-            </Row>
-            <Row>
-                <Col sm={8}><TopicList></TopicList></Col>
-            </Row>
-        </Container>
-    );
-}
+      <Container>
+        <Row>
+          <Col> <App></App></Col>
+        </Row>
+        <Row>
+          
+          <Col sm={8}><TopicList/></Col>
+        </Row>
 
-export default ViewPort;
+      </Container>
+    );
+  }
+  
+  export default ViewPort;

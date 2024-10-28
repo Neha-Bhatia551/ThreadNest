@@ -18,7 +18,8 @@ function TopicCreator({ addTopic }) {
       console.log(e.target.formContent.value);
       
       const newTopic = {
-          "id": Date.now(),//topics.length + 1,
+          "id" : -1,
+          "topic_id": -1,
           "title": e.target.formTitle.value,
           "content": e.target.formContent.value,
           "rating": 0
@@ -47,7 +48,7 @@ function TopicCreator({ addTopic }) {
               <Form.Label>Topic Content</Form.Label>
               <Form.Control as="textarea" name="formContent"  rows={3} />
             </Form.Group>
-                <Button variant="primary" type='submit' >
+              <Button variant="primary" type='submit' >
                   Save Changes
               </Button>
           </Form>
